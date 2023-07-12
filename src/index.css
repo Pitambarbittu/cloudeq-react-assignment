@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.Nav {
+  display: flex;
+  margin-left: 150px;
+}
+
+.Nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.Nav ul li {
+  margin: 10px 60px;
+  text-decoration: none;
+}
+
+hr{
+  width: 1px solid black;
+  position: absolute;
+  right: 750px;
+  /* bottom: 100px; */
+  margin-top: -40em;
+  align-items: center;
+  height: 90em;
+  transform: rotate(90deg);
+}

@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './navbar/Home';
+import Electronics from './navbar/Electronics';
+import Fashion from './navbar/Fashion';
+import Grocery from './navbar/Grocery';
+import Mobiles from './navbar/Mobiles';
+import TopOffers from './navbar/Topoffers';
+import Travel from './navbar/Travel';
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from './Nav';
+
+
+// import UseStateHook from './hooks/UseStateHook';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BrowserRouter>
+     <Nav/>
+     {/* <UseStateHook/> */}
+     <Routes>
+     
+     <Route path='/Home' element={<Home/>} />
+
+    <Route path='/Electronics' element={<Electronics/>} />
+    <Route path='/Fashion' element={<Fashion/>} />
+    <Route path='/Grocery' element={<Grocery/>} />
+    <Route path='/Mobiles' element={<Mobiles/>} />
+    <Route path='/TopOffers' element={<TopOffers/>} />
+    <Route path='/Travels' element={<Travel/>} />
+
+
+     
+     </Routes>
+     </BrowserRouter>
+
     </div>
   );
 }
