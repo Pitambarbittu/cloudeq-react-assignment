@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cloudeq-react-assignment/static/css/main.0374ddaf.css",
+    "main.js": "/cloudeq-react-assignment/static/js/main.92ba3727.js",
+    "static/js/787.90860bc3.chunk.js": "/cloudeq-react-assignment/static/js/787.90860bc3.chunk.js",
+    "static/media/hogwarts.png": "/cloudeq-react-assignment/static/media/hogwarts.0c56d85aa2573580b69d.png",
+    "index.html": "/cloudeq-react-assignment/index.html",
+    "main.0374ddaf.css.map": "/cloudeq-react-assignment/static/css/main.0374ddaf.css.map",
+    "main.92ba3727.js.map": "/cloudeq-react-assignment/static/js/main.92ba3727.js.map",
+    "787.90860bc3.chunk.js.map": "/cloudeq-react-assignment/static/js/787.90860bc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0374ddaf.css",
+    "static/js/main.92ba3727.js"
+  ]
+}
